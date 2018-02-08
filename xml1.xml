@@ -1,0 +1,82 @@
+<DB>
+	<ELEMENT>
+		<NAME>
+			TestExecutive
+		</NAME>
+		<CATEGORY>
+			CppProject
+		</CATEGORY>
+		<TIMEDATE>	
+			Mon Feb 13 19:39:42 2017
+		</TIMEDATE>
+		<DESCRIPTION>
+			Project1_TestExecutive
+		</DESCRIPTION>
+		<DATA>
+			TestExecutiveData
+		</DATA>
+		<CHILDREN>
+			<CHILD>
+				NoSqlDb
+			</CHILD>
+			<CHILD>
+				Query
+			</CHILD>
+		</CHILDREN>
+	</ELEMENT>
+	
+	<ELEMENT>
+		<NAME>
+			NoSqlDb
+		</NAME>
+		<CATEGORY>
+			CppProject
+		</CATEGORY>
+		<TIMEDATE>
+			Mon Feb 13 19:39:42 2017
+		</TIMEDATE>
+		<DESCRIPTION>
+			Project1_NoSqlDb
+		</DESCRIPTION>
+		<DATA>
+			NoSqlDbData
+		</DATA>
+		<CHILDREN>
+			<CHILD>
+				CppProperties
+			</CHILD>
+			<CHILD>
+				XmlDocument
+			</CHILD>
+			<CHILD>
+				StrHelper
+			</CHILD>
+			<CHILD>
+				Convert
+			</CHILD>
+		</CHILDREN>
+	</ELEMENT>
+	
+	<ELEMENT>
+		<NAME>
+			Query
+		</NAME>
+		<CATEGORY>
+			CppProject
+		</CATEGORY>
+		<TIMEDATE>
+			Mon Feb 13 19:39:42 2017
+		</TIMEDATE>
+		<DESCRIPTION>
+			Project1_Query
+		</DESCRIPTION>
+		<DATA>
+			QueryData
+		</DATA>
+		<CHILDREN>
+			<CHILD>
+				NoSqlDb
+			</CHILD>
+		</CHILDREN>
+	</ELEMENT>
+</DB>

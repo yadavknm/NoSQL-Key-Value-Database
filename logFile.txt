@@ -1,0 +1,23 @@
+
+                                             CodeAnalysis
+    ==============================================================================================
+     Mon Feb 13 19:02:56 2017
+     Path: "F:\SU\Spring 2017\OOD\Code\Project1_OOD"
+     Args: Project1.sln, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched    50 dirs
+   processed     1 files

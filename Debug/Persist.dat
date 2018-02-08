@@ -1,0 +1,38 @@
+
+  Demonstrate Persisting to and from XML
+ ========================================
+
+  Persisting a string
+ ---------------------
+  StringWrapper state = Hello World
+  XML saved from StringWrapper = <StringWrapper>Hello World</StringWrapper>
+  id of restored StringWrapper = class StringWrapper
+  restored StringWrapper state = Hello World
+
+  Persisting a double
+ ---------------------
+  DoubleWrapper state = 3.14159
+  XML saved from DoubleWrapper = <DoubleWrapper>3.14159</DoubleWrapper>
+  id of restored DoubleWrapper = class DoubleWrapper
+  restored DoubleWrapper state = 3.14159
+
+  Persisting a Widget
+ ---------------------
+  WidgetWrapper state:
+    wint = 42
+    wstr = Fred
+  XML saved from WidgetWrapper:
+  <WidgetWrapper>
+    <wint>
+      42
+    </wint>
+    <wstr>
+      Fred
+    </wstr>
+  </WidgetWrapper>
+  id of restored WidgetWrapper = class WidgetWrapper
+  WidgetWrapper state:
+    wint = 42
+    wstr = Fred
+    
+
